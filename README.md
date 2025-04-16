@@ -30,7 +30,7 @@ In today’s digital age, countless individuals share their mental health experi
 ## 🏗️ Model Architecture
 
 <p align="center">
-  <img src="https://i.postimg.cc/NFPwd7C8/Neuro-Pulse-AI-Powered-Mental-Wellness-Scanner.png" width="600"/>
+  <img src="https://i.postimg.cc/NFPwd7C8/Neuro-Pulse-AI-Powered-Mental-Wellness-Scanner.png" width="400"/>
 </p>
 
 ### ✍️ Workflow Summary:
