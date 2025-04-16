@@ -1,11 +1,5 @@
 <div align="center">
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/oumayma-bejaoui-8a6398235/)
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/rami-gharbi/)
 
 </div>
 
