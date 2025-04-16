@@ -40,8 +40,10 @@ The hackathon challenge focuses on:
 - **Objective:** Building a model to accurately classify text into mental health categories.
 - **Significance:** Early detection of mental health issues can facilitate prompt interventions, potentially saving lives.
 - **Evaluation Metric:** **Accuracy** – The model’s performance is measured by how accurately it classifies the text.
+### 2. Architecture
+<img href="https://i.postimg.cc/NFPwd7C8/Neuro-Pulse-AI-Powered-Mental-Wellness-Scanner.png">
 
-### 2. Data & Submission Format
+### 3. Data & Submission Format
 - **Input Data:**  
   The dataset comprises rows with an **ID** and the associated text content. Each row is an individual sample.
   
