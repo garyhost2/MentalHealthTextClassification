@@ -1,52 +1,55 @@
 <div align="center">
 
+# 🧠 MindScope  
+### 5th Place Solution — GODS Hackathon 🥉
+
+A Deep Learning approach for early detection of mental health conditions from text.
+
+[![View the Project](https://img.shields.io/badge/View%20Project-GitHub-black?logo=github)](https://github.com/garyhost2/MentalHealthTextClassification)
 
 </div>
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-    <h1 style="font-size:35px">5th place Solution on GODS hackathon</h1>
-    <br>
-    <p style="font-size:20px" align="center">
-        A Deep learning approche to detect early signs of mental health issues from text-based content.
-    <br>
-    <br>
-
-  </p>
-  <br><br>
-  <a href="https://github.com/garyhost2/MentalHealthTextClassification">
-   
-  </a>
-</div>
-
-# MindScope: Early Detection of Mental Health Issues from Text
-
-## Overview
-**MindScope** is a text classification solution developed for a private hackathon open to all participants. In an era where millions share their mental health struggles online, early detection through natural language processing can be vital in providing timely support. This project builds a machine learning model that categorizes textual content into mental health-related topics such as **depression**, **anxiety**, and **relationship-related issues**.
-
-The challenge is organized by:
-- **IEEE ENSI Student Branch**  
-  *Founded in October 2011, the branch promotes engineering, computer science, and IT innovation through lectures and articles.*
-- **IEEE ENSI SB-Computational Intelligence Society**  
-  *Created in May 2021, this society focuses on advancing computing knowledge by introducing innovative techniques and sharing expertise.*
 
 ---
 
-## Detailed Documentation
+## 🧩 Overview
 
-### 1. Problem Statement & Objectives
-The hackathon challenge focuses on:
-- **Objective:** Building a model to accurately classify text into mental health categories.
-- **Significance:** Early detection of mental health issues can facilitate prompt interventions, potentially saving lives.
-- **Evaluation Metric:** **Accuracy** – The model’s performance is measured by how accurately it classifies the text.
-### 2. Architecture
-<img href="https://i.postimg.cc/NFPwd7C8/Neuro-Pulse-AI-Powered-Mental-Wellness-Scanner.png">
+**MindScope** is a text classification solution developed during the **GODS Hackathon**, hosted by the IEEE ENSI Student Branch and the IEEE ENSI CIS Chapter.
 
-### 3. Data & Submission Format
-- **Input Data:**  
-  The dataset comprises rows with an **ID** and the associated text content. Each row is an individual sample.
-  
-- **Expected Output:**  
-  A submission file (CSV) with the following format:
+In today’s digital age, countless individuals share their mental health experiences online. Our model leverages this data to **identify early signs of depression, anxiety, and relationship issues** through Natural Language Processing (NLP), aiming to provide a foundation for **early intervention and mental health support**.
 
+---
+
+## 🧠 Problem Statement & Objective
+
+- **Goal**: Classify user-generated text into relevant mental health topics.  
+- **Why It Matters**: Early detection can save lives by enabling timely support.
+- **Metric**: **Accuracy** – classification performance on provided data.
+
+---
+
+## 🏗️ Model Architecture
+
+<p align="center">
+  <img src="https://i.postimg.cc/NFPwd7C8/Neuro-Pulse-AI-Powered-Mental-Wellness-Scanner.png" width="600"/>
+</p>
+
+### ✍️ Workflow Summary:
+- Concatenated title and content → dataset preprocessing  
+- **GPT-2** used for **data augmentation**  
+- Fine-tuning on multiple models:
+  - RoBERTa-Base & RoBERTa-Large  
+  - DeBERTa V3 Base  
+- **Majority Voting Ensemble** for final predictions  
+- Longformer planned but not finalized due to time/resources
+
+---
+
+## 📊 Dataset Format
+
+- **Input**: CSV with two fields – `ID` and `Text`  
+- **Output**: CSV file with the following format:
+  ```csv
+  ID,Label
+  1,Anxiety
+  2,Depression
+  ...
