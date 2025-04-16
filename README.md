@@ -6,19 +6,17 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <h1 style="font-size:35px">MindScope</h1>
+    <h1 style="font-size:35px">5th place Solution on GODS hackathon</h1>
     <br>
     <p style="font-size:20px" align="center">
-        A machine learning solution to detect early signs of mental health issues from text-based content.
+        A Deep learning approche to detect early signs of mental health issues from text-based content.
     <br>
     <br>
-    <a href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+
   </p>
   <br><br>
-  <a href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME">
-    <img src="./assets/logo.png" alt="MindScope Logo" width="256px">
+  <a href="https://github.com/garyhost2/MentalHealthTextClassification">
+   
   </a>
 </div>
 
